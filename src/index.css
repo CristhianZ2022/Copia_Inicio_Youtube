@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.night, .night *, .night * .filters-genres, .night * .menu-perfil {
+  background-color: black;
+  color: white;
+}
+
+.night * .filters-genres .genre.activeGenre, .night * .filters-genres .genre:hover.activeGenre, .night * .filters-genres .genre:hover {
+  background-color: #FFFFFF;
+}
+
+.night * .filters-genres .genre, .night * .left, .night * .right, .night * header .searching .btn-mic, .night * header .options-user span, .night * .menu-perfil-item:hover {
+  background-color: #FFFFFF1A;
+}
+
+.night * .filters-genres .genre.activeGenre, .night * .filters-genres .genre:hover {
+  color: black;
+}
+
+.night * .left, .night * .right {
+  opacity: 0.5;
+  border-radius: 50%;
+}
+
+.night * .left:hover, .night * .right:hover { 
+  opacity: 1;
+  background-color: #FFFFFF1A;
+}
+
+.night * .videos-container .video:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  scale: 1.05;
+}
+
+.night * aside div:hover .material-symbols-outlined, .night * aside div:hover p {
+  color: black;
+}

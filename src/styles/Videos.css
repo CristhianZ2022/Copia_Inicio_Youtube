@@ -1,0 +1,142 @@
+.videos-container {
+  position: relative;
+  top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 15px;
+  padding: 30px 0 10px 0;
+  transition: all 0.5s ease;
+}
+
+.videos-container .video {
+  height: 305px;
+  width: 453px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.videos-container .video:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.video img {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.video .description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 0 5px;
+}
+
+.video .description h2 {
+  font-size: 1.2em;
+  width: 80%;
+}
+
+.video .description span {
+  font-size: 1em;
+  width: 100%;
+}
+
+.video .description h5 {
+  font-size: 0.9em;
+  width: 100%;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+  .videos-container {
+    gap: 10px;
+    padding: 20px 0 10px 0;
+  }
+
+  .videos-container .video {
+    width: 400px;
+  }
+
+  .video img {
+    height: 70%;
+  }
+
+  .video .description { 
+    height: 70px;
+  }
+
+  .video .description h2 {
+    font-size: 0.95em;
+  }
+
+  .video .description span,
+  .video .description h5 {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 600px) {
+  .videos-container {
+    justify-content: space-around;
+    left: 0 !important;
+    width: 100% !important;
+    padding: 0 30px;
+  }
+
+  .videos-container .video {
+    width: 45%;
+    height: 160px;
+  }
+
+  .video img {
+    height: 70%;
+  }
+
+  .video .description { 
+    height: 5px;
+  }
+
+  .video .description h2 {
+    font-size: 0.7em;
+  }
+
+  .video .description span,
+  .video .description h5, .video .description p {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 400px) {
+  .videos-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .videos-container .video {
+    width: 60%;
+    max-height: 130px;
+  }
+
+  .video img {
+    height: 69%;
+  }
+
+  .video .description { 
+    height: 20px;
+  }
+
+  .video .description h2 {
+    font-size: 0.6em;
+  }
+
+  .video .description span,
+  .video .description h5, .video .description p {
+    font-size: 0.4em;
+  }
+}
