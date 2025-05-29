@@ -1,12 +1,39 @@
-# React + Vite
+# 🎬 Copia Inicio YouTube
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una **réplica** del diseño de la pantalla de inicio de YouTube, con una estructura optimizada y un diseño responsivo.
 
-Currently, two official plugins are available:
+## 📌 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ **Diseño similar a YouTube**  
+✅ **Interfaz responsiva con media queries**  
+✅ **Componentes estructurados y organizados**  
+✅ **Uso de Flexbox y CSS Grid para distribución**  
 
-## Expanding the ESLint configuration
+## 📂 Estructura del Proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Instalación y Uso
+
+1️⃣ Clona el repositorio  
+```bash
+git clone https://github.com/CristhianZ2022/Copia_Inicio_Youtube.git
+
+cd Copia_Inicio_Youtube
+
+npm install
+
+npm start
+
+🖥️ Tecnologías Utilizadas
+React.js
+
+CSS (Flexbox & Grid)
+
+JavaScript (ES6+)
+
+Vite (Si aplicable)
+
+📌 Contribuciones
+Si quieres mejorar este proyecto, ¡envía un pull request! Cualquier aporte es bienvenido. 😃🚀
+
+📜 Licencia
+Este proyecto está bajo la MIT License. Consulta el archivo LICENSE para más detalles.
